@@ -33,9 +33,7 @@ Both components are designed with **usability**, **reusability**, and **accessib
 ├── vite.config.ts
 └── README.md
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -83,15 +81,4 @@ Added tests to ensure components work as expected.
 
 Ensured responsiveness and accessibility for better user experience.
 
-✅ Assignment Requirements
- Button component with accessibility ✅
 
- Table component with responsiveness ✅
-
- Tests included ✅
-
- Project setup with README ✅
-
-yaml
-Copy
-Edit
