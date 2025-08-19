@@ -1,35 +1,97 @@
-# My Components
+# My Components – React + TypeScript
 
-This project contains two reusable React + TypeScript components: **Button** and **Table**.
+This project is a small front-end assignment built with **React**, **TypeScript**, and **Vite**.  
+It contains two reusable UI components:
 
-## 🚀 Setup
+1. **Button Component** – A responsive, accessible button with hover and active states.  
+2. **Table Component** – A responsive, accessible table to display tabular data.
 
-```bash
-# Install dependencies
+Both components are designed with **usability**, **reusability**, and **accessibility (ARIA)** in mind.
+
+---
+
+## 🚀 Features
+- Built with **React + Vite** for fast development.
+- Written in **TypeScript** for type safety.
+- Fully **responsive** (works on desktop & mobile).
+- **Accessible** with ARIA labels.
+- Unit tests included with **Jest** + **React Testing Library**.
+
+---
+
+## 📂 Project Structure
+├── src/ # React components
+│ ├── Button.tsx
+│ ├── Table.tsx
+│ └── main.tsx
+├── tests/ # Unit tests
+│ ├── Button.test.tsx
+│ └── Table.test.tsx
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## 🛠️ Installation & Running Locally
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   cd YOUR_REPO_NAME
+Install dependencies
+
+bash
+Copy
+Edit
 npm install
+Start development server
 
-# Run development server
+bash
+Copy
+Edit
 npm run dev
+Run tests
 
-# Run tests
+bash
+Copy
+Edit
 npm test
+🌐 Deployment
+This project can be easily deployed on Vercel or Netlify.
+For Vercel:
 
-# Build for production
-npm run build
-```
+Go to https://vercel.com
 
-## 📦 Components
+Import your GitHub repo.
 
-- **Button**: Accessible, styled button component.
-- **Table**: Sortable, responsive table component.
+Select Framework: Vite.
 
-## 🌐 Deployment
+Deploy → Your app will be live instantly.
 
-### Option 1: Vercel (Recommended)
-1. Push this repo to GitHub.
-2. Go to [Vercel](https://vercel.com), import the repo.
-3. Deploy → Get a live link.
+📜 Approach
+Focused on component reusability.
 
-### Option 2: Chromatic (for Storybook preview)
-1. Add Storybook (`npx sb init`).
-2. Push to GitHub and link with [Chromatic](https://www.chromatic.com).
+Kept code modular and readable.
+
+Added tests to ensure components work as expected.
+
+Ensured responsiveness and accessibility for better user experience.
+
+✅ Assignment Requirements
+ Button component with accessibility ✅
+
+ Table component with responsiveness ✅
+
+ Tests included ✅
+
+ Project setup with README ✅
+
+yaml
+Copy
+Edit
